@@ -1,6 +1,20 @@
 body {
-  max-width: 100ch;
-  margin-inline: auto;
-  padding: 1em;
-  font: 100%/1.5 system-ui;
+    font: 100%/1.5 system-ui;
+    max-width: 100ch;
+    margin-inline: auto;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 2em;
+    border-bottom: 1px solid oklch(80% 3% 200);
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5em;
 }
