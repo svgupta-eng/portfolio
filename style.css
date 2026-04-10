@@ -5,6 +5,10 @@ body {
     padding: 1em;
 }
 
+nav ul, nav li {
+    display: contents;
+}
+
 nav {
     display: flex;
     margin-bottom: 2em;
