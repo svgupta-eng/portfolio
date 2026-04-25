@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Lorem ipsum dolor sit.",
+    "year": "2024",
+    "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod..."
+  },
+  {
+     "title": "Your Second Project",
+     "year": "2025",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Another description here."
+  },
+  {
+     "title": "Predictive Modeling of Infrastructure Failure and Demographic Bias Analysis",
+     "year": "2026",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Implemented random forest classifiers to predict infrastructure failures and analyze underlying demographic biases."
+  },
+  {
+     "title": "N-Gram Language Model and Tokenization Engine",
+     "year": "2026",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Engineered a custom language model and tokenization engine from scratch utilizing Python and regular expressions."
+  },
+  {
+     "title": "Probabilistic Simulation and Multivariate Statistical Modeling",
+     "year": "2026",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Developed statistical models and probabilistic simulations to analyze complex, multivariate datasets."
+  },
+  {
+     "title": "Verbal Autopsy Data Classification",
+     "year": "2025",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Converted unstructured verbal autopsy records into structured data formats to enable automated classification."
+  },
+  {
+     "title": "Slugbotics Humanoid Computer Vision",
+     "year": "2024",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Collaborated on the computer vision team to develop visual processing capabilities for a humanoid robotics project."
+  },
+  {
+     "title": "Healthcare Accessibility Analytics",
+     "year": "2025",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Exploratory data analysis focused on identifying disparities and improving healthcare accessibility through tech."
+  },
+  {
+     "title": "Bioinformatics Statistical Pipeline",
+     "year": "2024",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Processed and analyzed biological datasets using foundational bioinformatics and statistical methods."
+  },
+  {
+     "title": "LLM Prompt Engineering Optimization",
+     "year": "2026",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Designed and refined prompts to optimize the output and reliability of Large Language Models for specific data tasks."
+  },
+  {
+     "title": "AI Data Quality Analysis",
+     "year": "2025",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Evaluated and improved data quality metrics to ensure reliable inputs for machine learning models."
+  },
+  {
+     "title": "Placeholder Project 12",
+     "year": "2024",
+     "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+     "description": "Details coming soon."
+  }
+]
