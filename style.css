@@ -109,3 +109,60 @@ nav {
     --border-color: oklch(50% 10% 200 / 40%);
     border-bottom: 1px solid var(--border-color);
 }
+
+/* Layout for Pie Chart and Legend */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-block: 2em;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  overflow: visible;
+}
+
+/* Legend Styling */
+.legend {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  padding: 1em;
+  border: 1px solid var(--border-color, #ccc);
+  list-style: none;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.swatch {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: var(--color);
+  border-radius: 50%; /* Optional: makes it a circle */
+}
+
+/* Interactive D3 Hover Effects */
+svg:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+/* Selected State */
+.selected {
+  --color: oklch(60% 45% 0) !important;
+}
+
+.selected:is(path) {
+  fill: var(--color);
+}
